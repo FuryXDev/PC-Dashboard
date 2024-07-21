@@ -135,11 +135,6 @@ def refresh_dashboard():
     update_thread = Thread(target=update_dashboard, daemon=True)
     update_thread.start()
 
-def get_user_info():
-    public_ip = get_public_ip()
-    system_specs = get_system_specs()
-    send_discord_webhook(public_ip, system_specs)
-
 app = ctk.CTk()
 app.title("PC Dashboard")
 app.geometry("1000x700")
@@ -194,7 +189,6 @@ processes_button.pack(pady=10, padx=10, side=tk.LEFT)
 exit_button = ctk.CTkButton(buttons_frame, text="Exit", command=app.quit, fg_color="#ff4c4c", hover_color="#cc0000")
 exit_button.pack(pady=10, padx=10, side=tk.LEFT)
 
-get_user_info()
 
 update_thread = Thread(target=update_dashboard, daemon=True)
 update_thread.start()
