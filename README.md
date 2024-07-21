@@ -1,6 +1,6 @@
 # PC Dashboard
 
-![PC Dashboard Banner](https://via.placeholder.com/1200x400.png?text=PC+Dashboard)
+![PC Dashboard Banner]([https://via.placeholder.com/1200x400.png?text=PC+Dashboard](https://imgur.com/a/LoYQEBh))
 
 **PC Dashboard** est une application Python moderne qui fournit un tableau de bord en temps réel pour surveiller les performances et les spécifications de votre système. Utilisant des bibliothèques telles que `tkinter`, `customtkinter`, `psutil` et `GPUtil`, elle affiche des informations détaillées sur votre ordinateur, y compris l'utilisation du CPU, de la mémoire, du disque, et du GPU.
 
